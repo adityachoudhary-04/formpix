@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="container max-w-4xl mx-auto px-4 py-8 md:py-16 space-y-12">
       <div className="space-y-4 text-center max-w-2xl mx-auto">
-        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">About SarkariPhoto</h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">About FormPix</h1>
         <p className="text-muted-foreground text-base md:text-lg">
           Empowering millions of job seekers across India with fast, privacy-first, and 100% free photo and signature
           editing tools.
@@ -28,7 +28,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          <strong>SarkariPhoto</strong> was built to solve this problem cleanly and ethically. Our platform runs entirely
+          <strong>FormPix</strong> was built to solve this problem cleanly and ethically. Our platform runs entirely
           inside your web browser using HTML5 Canvas, Web Workers, and modern JavaScript APIs. Your documents never touch
           any server, guaranteeing 100% data privacy and instant processing speed.
         </p>
@@ -75,3 +75,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

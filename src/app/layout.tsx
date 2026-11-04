@@ -13,8 +13,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | SarkariPhoto - Free Exam Photo & Signature Resizer",
-    default: "SarkariPhoto - Free Exam Photo & Signature Resizer",
+    template: "%s | FormPix - Free Exam Photo & Signature Resizer",
+    default: "FormPix - Free Exam Photo & Signature Resizer",
   },
   description:
     "Free online tool to resize, crop, and compress passport photos and signatures for government exam applications like UPSC, SSC, Banking, Railway, and more. No upload needed — 100% browser-based and private.",
@@ -30,22 +30,22 @@ export const metadata: Metadata = {
     "signature compressor",
     "online photo editor",
   ],
-  authors: [{ name: "SarkariPhoto" }],
-  creator: "SarkariPhoto",
+  authors: [{ name: "FormPix" }],
+  creator: "FormPix",
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://sarkariphoto.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://formpix.com"
   ),
   openGraph: {
     type: "website",
     locale: "en_IN",
-    siteName: "SarkariPhoto",
-    title: "SarkariPhoto - Free Exam Photo & Signature Resizer",
+    siteName: "FormPix",
+    title: "FormPix - Free Exam Photo & Signature Resizer",
     description:
       "Free online tool to resize, crop, and compress passport photos and signatures for government exam applications. 100% browser-based and private.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SarkariPhoto - Free Exam Photo & Signature Resizer",
+    title: "FormPix - Free Exam Photo & Signature Resizer",
     description:
       "Free online tool to resize, crop, and compress passport photos and signatures for government exam applications. 100% browser-based and private.",
   },
@@ -70,7 +70,7 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
-                  var theme = localStorage.getItem('sarkariphoto-theme');
+                  var theme = localStorage.getItem('formpix-theme');
                   var resolved = theme;
                   if (!theme || theme === 'system') {
                     resolved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';

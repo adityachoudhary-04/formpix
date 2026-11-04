@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground text-xs">Email</p>
-                  <p className="text-xs">support@sarkariphoto.com</p>
+                  <p className="text-xs">support@formpix.com</p>
                 </div>
               </div>
 
@@ -134,3 +134,4 @@ export default function ContactPage() {
     </div>
   );
 }
+

@@ -16,13 +16,13 @@ export default function TermsPage() {
       <div className="prose dark:prose-invert max-w-none text-muted-foreground space-y-6 text-sm leading-relaxed">
         <h2 className="text-lg font-bold text-foreground">1. Acceptance of Terms</h2>
         <p>
-          By accessing and using <strong>SarkariPhoto</strong> (&quot;the Service&quot;), you agree to comply with and be bound
+          By accessing and using <strong>FormPix</strong> (&quot;the Service&quot;), you agree to comply with and be bound
           by these Terms of Use. If you do not agree with any part of these terms, you must not use the website.
         </p>
 
         <h2 className="text-lg font-bold text-foreground">2. Description of Service</h2>
         <p>
-          SarkariPhoto provides free browser-based image resizing, cropping, enhancement, and compression tools tailored for
+          FormPix provides free browser-based image resizing, cropping, enhancement, and compression tools tailored for
           educational and competitive exam applicants. All processing is executed client-side within your browser.
         </p>
 
@@ -38,8 +38,8 @@ export default function TermsPage() {
 
         <h2 className="text-lg font-bold text-foreground">4. Limitation of Liability</h2>
         <p>
-          SarkariPhoto is provided &quot;as is&quot; without warranties of any kind, whether express or implied. In no event
-          shall the operators of SarkariPhoto be liable for any direct, indirect, incidental, or consequential damages,
+          FormPix is provided &quot;as is&quot; without warranties of any kind, whether express or implied. In no event
+          shall the operators of FormPix be liable for any direct, indirect, incidental, or consequential damages,
           including but not limited to application rejection, disqualification, or missed deadlines arising out of or in
           connection with the use of this service.
         </p>
@@ -54,3 +54,4 @@ export default function TermsPage() {
     </div>
   );
 }
+

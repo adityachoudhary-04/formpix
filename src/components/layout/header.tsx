@@ -103,7 +103,7 @@ export function Header() {
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold leading-tight tracking-tight">
-              SarkariPhoto
+              FormPix
             </span>
             <span className="hidden text-[10px] leading-tight text-muted-foreground sm:block">
               Free Exam Photo &amp; Signature Tools
@@ -216,7 +216,7 @@ export function Header() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                 <Camera className="h-4 w-4" />
               </div>
-              <span className="text-base font-bold">SarkariPhoto</span>
+              <span className="text-base font-bold">FormPix</span>
             </Link>
             <Button
               variant="ghost"

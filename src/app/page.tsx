@@ -100,10 +100,10 @@ export default function HomePage() {
     },
     {
       q: "Can I use this tool on my mobile phone?",
-      a: "Yes! SarkariPhoto is fully responsive and works smoothly on Android, iPhone, tablets, and desktop computers without installing any app.",
+      a: "Yes! FormPix is fully responsive and works smoothly on Android, iPhone, tablets, and desktop computers without installing any app.",
     },
     {
-      q: "Is SarkariPhoto completely free?",
+      q: "Is FormPix completely free?",
       a: "Yes, it is 100% free with no registration, no watermarks, no ads blocking your work, and no daily limits.",
     },
   ];
@@ -473,7 +473,7 @@ export default function HomePage() {
           <p>
             Standard digital camera or smartphone photos often exceed 3MB to 8MB in file size with dimensions exceeding
             3000 pixels. Submitting non-compliant documents causes immediate application rejection during online form
-            submission. <strong>SarkariPhoto</strong> provides an all-in-one, privacy-focused utility to crop, resize,
+            submission. <strong>FormPix</strong> provides an all-in-one, privacy-focused utility to crop, resize,
             clean, and compress exam photos and signatures to the exact width, height, and kilobyte specifications
             without ever uploading your sensitive files to a remote server.
           </p>
@@ -482,3 +482,4 @@ export default function HomePage() {
     </div>
   );
 }
+

@@ -43,7 +43,7 @@ export function Footer() {
                 <Camera className="h-5 w-5" />
               </div>
               <span className="text-lg font-bold tracking-tight">
-                SarkariPhoto
+                FormPix
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -120,7 +120,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t pt-8 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} SarkariPhoto. All rights reserved.
+            © {currentYear} FormPix. All rights reserved.
           </p>
           <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-500" />

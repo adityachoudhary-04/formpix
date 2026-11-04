@@ -96,7 +96,7 @@ export default function AddNameDatePage() {
 
   const handleDownload = () => {
     if (!processedResult) return;
-    const filename = `sarkari-photo-name-date.jpg`;
+    const filename = `formpix-photo-name-date.jpg`;
     const url = URL.createObjectURL(processedResult.blob);
     const a = document.createElement("a");
     a.href = url;
@@ -297,3 +297,4 @@ export default function AddNameDatePage() {
     </div>
   );
 }
+

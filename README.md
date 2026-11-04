@@ -1,4 +1,4 @@
-# SarkariPhoto — Free Exam Photo & Signature Resizer
+# FormPix — Free Exam Photo & Signature Resizer
 
 A modern, production-ready, privacy-first web application built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS**, and **HTML5 Canvas**.
 
@@ -89,7 +89,7 @@ The project is structured specifically for zero-configuration deployment on Verc
    ```bash
    git init
    git add .
-   git commit -m "Initial commit of SarkariPhoto exam resizer"
+   git commit -m "Initial commit of FormPix exam resizer"
    git remote add origin https://github.com/<your-username>/<repo-name>.git
    git push -u origin main
    ```
@@ -108,3 +108,4 @@ The project is structured specifically for zero-configuration deployment on Verc
 ## 🔒 Privacy & Legal Compliance
 
 All image modifications occur on the client machine inside HTML5 Canvas buffers. No biometric, face, photograph, or signature data is ever transmitted, logged, or retained on servers.
+

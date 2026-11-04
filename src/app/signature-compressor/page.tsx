@@ -95,7 +95,7 @@ export default function SignatureCompressorPage() {
   const handleDownload = () => {
     if (!result) return;
     const ext = format === "image/png" ? "png" : "jpg";
-    const filename = `sarkari-signature-${Math.round(result.fileSize / 1024)}kb.${ext}`;
+    const filename = `formpix-signature-${Math.round(result.fileSize / 1024)}kb.${ext}`;
 
     const url = URL.createObjectURL(result.blob);
     const a = document.createElement("a");
@@ -344,3 +344,4 @@ export default function SignatureCompressorPage() {
     </div>
   );
 }
+

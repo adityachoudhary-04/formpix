@@ -195,7 +195,7 @@ export function useImageProcessor(initialDocType: DocumentType = "photo") {
     if (!processedImage) return;
 
     const ext = format === "image/png" ? "png" : format === "image/webp" ? "webp" : "jpg";
-    const filename = `sarkari-photo-${selectedDocType}-${width}x${height}.${ext}`;
+    const filename = `formpix-${selectedDocType}-${width}x${height}.${ext}`;
 
     const url = URL.createObjectURL(processedImage.blob);
     const a = document.createElement("a");
@@ -271,3 +271,4 @@ export function useImageProcessor(initialDocType: DocumentType = "photo") {
     resetAll,
   };
 }
+

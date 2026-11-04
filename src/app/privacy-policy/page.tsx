@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
       <div className="prose dark:prose-invert max-w-none text-muted-foreground space-y-6 text-sm leading-relaxed">
         <h2 className="text-lg font-bold text-foreground">1. Our Commitment to Your Privacy</h2>
         <p>
-          At <strong>SarkariPhoto</strong>, user privacy is our highest priority. Because our tools are designed for
+          At <strong>FormPix</strong>, user privacy is our highest priority. Because our tools are designed for
           preparing sensitive personal documents such as biometric passport photographs and handwritten signatures,
           we have engineered our application architecture so that <strong>no image or signature data is ever uploaded
           to our servers</strong>.
@@ -53,9 +53,10 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-lg font-bold text-foreground">6. Contact</h2>
         <p>
-          If you have questions regarding this Privacy Policy, please reach out to us at <code>privacy@sarkariphoto.com</code>.
+          If you have questions regarding this Privacy Policy, please reach out to us at <code>privacy@formpix.com</code>.
         </p>
       </div>
     </div>
   );
 }
+

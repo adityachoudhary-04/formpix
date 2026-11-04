@@ -144,7 +144,7 @@ export function useSignatureProcessor() {
     if (!processedImage) return;
 
     const ext = format === "image/png" ? "png" : "jpg";
-    const filename = `sarkari-signature-${width}x${height}.${ext}`;
+    const filename = `formpix-signature-${width}x${height}.${ext}`;
 
     const url = URL.createObjectURL(processedImage.blob);
     const a = document.createElement("a");
@@ -208,3 +208,4 @@ export function useSignatureProcessor() {
     resetAll,
   };
 }
+

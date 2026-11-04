@@ -87,3 +87,4 @@ describe("Utility Formatting Functions", () => {
     expect(generateSlug("UPSC Civil Services (IAS)")).toBe("upsc-civil-services-ias");
   });
 });
+

@@ -87,7 +87,7 @@ export default function ImageCompressorPage() {
   const handleDownload = () => {
     if (!result) return;
     const ext = format === "image/png" ? "png" : format === "image/webp" ? "webp" : "jpg";
-    const filename = `sarkari-compressed-${Math.round(result.fileSize / 1024)}kb.${ext}`;
+    const filename = `formpix-compressed-${Math.round(result.fileSize / 1024)}kb.${ext}`;
 
     const url = URL.createObjectURL(result.blob);
     const a = document.createElement("a");
@@ -331,3 +331,4 @@ export default function ImageCompressorPage() {
     </div>
   );
 }
+

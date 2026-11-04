@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { examPresets } from "@/data/exam-presets";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sarkariphoto.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://formpix.com";
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -88,3 +88,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticRoutes, ...examRoutes];
 }
+

@@ -60,3 +60,4 @@ describe("Image Validator", () => {
     expect(isFormatSupported("image/gif")).toBe(false);
   });
 });
+
